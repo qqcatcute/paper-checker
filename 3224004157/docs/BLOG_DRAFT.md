@@ -1,4 +1,4 @@
-GitHub 作业链接：**待创建仓库并上传后，替换为学号目录的实际链接。**
+GitHub 作业链接：[qqcatcute/paper-checker](https://github.com/qqcatcute/paper-checker)
 
 # 第一次个人编程作业
 

@@ -12,9 +12,9 @@
 
 ## GitHub 仓库
 
-已确认 GitHub 登录账号为 `qqcatcute`。本地仓库名称为 `paper-checker`，远端创建表单已填好，可见范围待确认，仓库尚未创建。
+公开仓库已创建：[qqcatcute/paper-checker](https://github.com/qqcatcute/paper-checker)。本地已连接该远端，首次推送等待本机 Git 上传认证完成。
 
-创建空仓库后，为本地仓库添加远端并完成 Git 上传认证，随后推送现有提交。
+完成 Git 上传认证后，推送现有提交。
 
 保留现有 Git 历史和提交时间。首次开发期间尚未连接远端，提交先保存在本地。
 

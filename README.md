@@ -7,3 +7,5 @@
 对应作业：<https://edu.cnblogs.com/campus/gdgy/Class56-Grade2024-CS/homework/15693>。
 
 使用 Python 3 实现，包含命令行程序、自动化测试、性能分析和开发文档。
+
+GitHub 仓库：[qqcatcute/paper-checker](https://github.com/qqcatcute/paper-checker)。
