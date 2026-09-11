@@ -63,12 +63,12 @@ python -m coverage json -o reports/coverage.json
 
 Windows PowerShell 激活环境的命令为 `.venv\Scripts\Activate.ps1`。Windows 若没有创建符号链接的权限，相关测试可能需要系统的开发者模式或相应权限；不影响普通文件比较。
 
-`requirements.txt` 保留了“仅标准库”的说明；`requirements-dev.txt` 则固定了本轮实际使用的开发工具版本。
+`requirements.txt` 说明程序没有第三方运行依赖；开发工具版本记录在 `requirements-dev.txt`。
 
 ## 查看已有报告
 
 - [设计说明与流程图](docs/DESIGN.md)
-- [PSP 预估与本轮阶段耗时](docs/PSP.md)
+- [PSP 预估与阶段耗时](docs/PSP.md)
 - [测试与代码质量报告](docs/TEST_REPORT.md)
 - [性能改进报告](docs/PERFORMANCE.md)
 - [覆盖率交互报告](reports/coverage/index.html)：在浏览器中打开，可以点击各文件查看具体行。
@@ -82,11 +82,11 @@ python -m tools.benchmark --label optimized --output reports/performance-rerun
 python -m snakeviz reports/performance-rerun/optimized.prof
 ```
 
-这会使用固定种子的自建中文数据，分别进行五次核心计算计时、一次 Python 内存分配测量、一次 cProfile 分析和三次实际命令行调用。原始本轮报告保存在 `reports/performance/`，复测使用另一文件夹以保留原始记录。
+这会使用固定种子的自建中文数据，分别进行五次核心计算计时、一次 Python 内存分配测量、一次 cProfile 分析和三次实际命令行调用。首次测量结果保存在 `reports/performance/`，复测写入另一文件夹。
 
 初版代码位于 Git 提交 `15d1de1`，优化后核心代码位于 `bf9e75a`；性能脚本在 `a9af0f9` 引入。可从 `a9af0f9` 建立独立检出复现初版，无需回滚当前目录。
 
-## 来源与当前状态
+## 参考资料
 
 - [课程作业要求](https://edu.cnblogs.com/campus/gdgy/Class56-Grade2024-CS/homework/15693)
 - [Python cProfile 文档](https://docs.python.org/3/library/profile.html)
@@ -94,4 +94,4 @@ python -m snakeviz reports/performance-rerun/optimized.prof
 - [Ruff 文档](https://docs.astral.sh/ruff/)
 - [SnakeViz 项目文档](https://jiffyclub.github.io/snakeviz/)
 
-本轮由助手参与实现并记录实际验证结果。GitHub 远端仓库尚未创建，代码与阶段提交保存在本地 `paper-checker` 仓库。课堂样例暂缺；Python 性能分析截图能否替代题目写明的 VS 2017/JProfiler 截图，尚待教师确认。
+开发过程与计时口径见 [PSP 记录](docs/PSP.md)，上传和课程提交事项见 [提交准备](docs/SUBMISSION.md)。

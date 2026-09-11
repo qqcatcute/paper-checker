@@ -6,5 +6,4 @@
 
 对应作业：<https://edu.cnblogs.com/campus/gdgy/Class56-Grade2024-CS/homework/15693>。
 
-本项目使用 Python 3，先完成本地开发并保留真实 Git 提交。远端 GitHub 仓库尚未创建。
-
+使用 Python 3 实现，包含命令行程序、自动化测试、性能分析和开发文档。
