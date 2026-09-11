@@ -1,0 +1,5 @@
+# Verified with Python 3.9.6 on macOS arm64.
+ruff==0.16.7
+coverage==7.10.7
+snakeviz==2.2.2
+tornado==6.5.8
