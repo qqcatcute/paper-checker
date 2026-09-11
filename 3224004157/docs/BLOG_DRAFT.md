@@ -1,4 +1,4 @@
-GitHub 作业链接：[qqcatcute/paper-checker](https://github.com/qqcatcute/paper-checker)
+GitHub 作业链接：[paper-checker / 3224004157](https://github.com/qqcatcute/paper-checker/tree/main/3224004157)
 
 # 第一次个人编程作业
 

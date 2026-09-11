@@ -12,16 +12,16 @@
 
 ## GitHub 仓库
 
-公开仓库已创建：[qqcatcute/paper-checker](https://github.com/qqcatcute/paper-checker)。本地已连接该远端，首次推送等待本机 Git 上传认证完成。
+作业文件和现有开发提交已上传到公开仓库：[qqcatcute/paper-checker](https://github.com/qqcatcute/paper-checker)。
 
-完成 Git 上传认证后，推送现有提交。
+具体作业目录：[3224004157](https://github.com/qqcatcute/paper-checker/tree/main/3224004157)。博客草稿第一行已填写此地址。
 
 保留现有 Git 历史和提交时间。首次开发期间尚未连接远端，提交先保存在本地。
 
 ## 博客与课程提交
 
 1. 先本人运行演示和测试，阅读并理解核心算法。
-2. GitHub 上传后，将具体作业目录链接填到博客正文第一行。
+2. 保留博客草稿第一行的具体作业目录链接。
 3. 博客标题使用“第一次个人编程作业”。
 4. 根据个人学习、复现和修改过程补充博客与 PSP，计时口径见 `PSP.md`。
 5. 将报告截图上传博客园，并替换草稿中的本地相对图片路径。
@@ -34,4 +34,4 @@
 - Python 的 cProfile/SnakeViz 图能否替代页面指定的 VS 2017/JProfiler 图。
 - 若教师有补充规定，核对相似度的 0～1 输出约定、文本编码和测试环境。
 
-本文件和博客草稿均未自动发布到任何网站。
+博客尚未在博客园发布，也尚未向课程作业页面提交链接。
