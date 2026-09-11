@@ -1,0 +1,32 @@
+[
+  {
+    "candidate": "orig.txt",
+    "score": 1.0,
+    "answer": "1.00",
+    "source": "self-created sample"
+  },
+  {
+    "candidate": "orig_add.txt",
+    "score": 0.9101526226336032,
+    "answer": "0.91",
+    "source": "self-created sample"
+  },
+  {
+    "candidate": "orig_delete.txt",
+    "score": 0.8752237983882217,
+    "answer": "0.88",
+    "source": "self-created sample"
+  },
+  {
+    "candidate": "orig_edit.txt",
+    "score": 0.643327222774192,
+    "answer": "0.64",
+    "source": "self-created sample"
+  },
+  {
+    "candidate": "unrelated.txt",
+    "score": 0.06963547619442877,
+    "answer": "0.07",
+    "source": "self-created sample"
+  }
+]
