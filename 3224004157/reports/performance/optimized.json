@@ -1,0 +1,287 @@
+{
+  "label": "optimized",
+  "timestamp_utc": "2026-09-11T09:02:52.618774+00:00",
+  "python": "3.9.6",
+  "platform": "macOS-26.5.2-arm64-arm-64bit",
+  "seed": 3224004157,
+  "original_characters": 120000,
+  "candidate_characters": 126000,
+  "original_sha256": "5c0c363a3fad1cc9471d70154542cdaec07872dd03577811e5d566b149360332",
+  "candidate_sha256": "09d2832b5dd049d7e316e4e46c53068afbe0732df53e7461da66877df3818c87",
+  "score": 0.8757565090053827,
+  "repeats": 5,
+  "timing_seconds": [
+    0.063065333,
+    0.06344466700000001,
+    0.06114375,
+    0.06217554199999997,
+    0.06102687499999998
+  ],
+  "median_seconds": 0.06217554199999997,
+  "tracemalloc_peak_bytes": 29875594,
+  "cli_seconds": [
+    0.09445720800000001,
+    0.08816799999999991,
+    0.09291104100000003
+  ],
+  "cli_median_seconds": 0.09291104100000003,
+  "functions": [
+    {
+      "file": "~",
+      "line": 0,
+      "name": "<built-in method _collections._count_elements>",
+      "calls": 4,
+      "primitive_calls": 4,
+      "own_seconds": 0.022140973,
+      "cumulative_seconds": 0.037293458
+    },
+    {
+      "file": "similarity.py",
+      "line": 15,
+      "name": "<genexpr>",
+      "calls": 246002,
+      "primitive_calls": 246002,
+      "own_seconds": 0.015193141,
+      "cumulative_seconds": 0.019417821000000002
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "name": "<built-in method builtins.sum>",
+      "calls": 6,
+      "primitive_calls": 6,
+      "own_seconds": 0.0086493,
+      "cumulative_seconds": 0.025897124
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "name": "<method 'join' of 'str' objects>",
+      "calls": 2,
+      "primitive_calls": 2,
+      "own_seconds": 0.007923179,
+      "cumulative_seconds": 0.027341
+    },
+    {
+      "file": "similarity.py",
+      "line": 48,
+      "name": "<genexpr>",
+      "calls": 126000,
+      "primitive_calls": 126000,
+      "own_seconds": 0.007617596000000001,
+      "cumulative_seconds": 0.007617596000000001
+    },
+    {
+      "file": "similarity.py",
+      "line": 47,
+      "name": "<genexpr>",
+      "calls": 120000,
+      "primitive_calls": 120000,
+      "own_seconds": 0.007534889,
+      "cumulative_seconds": 0.007534889
+    },
+    {
+      "file": "similarity.py",
+      "line": 24,
+      "name": "<genexpr>",
+      "calls": 120202,
+      "primitive_calls": 120202,
+      "own_seconds": 0.006965454,
+      "cumulative_seconds": 0.011373658
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "name": "<method 'get' of 'dict' objects>",
+      "calls": 120200,
+      "primitive_calls": 120200,
+      "own_seconds": 0.004408204000000001,
+      "cumulative_seconds": 0.004408204000000001
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "name": "<method 'isalnum' of 'str' objects>",
+      "calls": 246000,
+      "primitive_calls": 246000,
+      "own_seconds": 0.004224680000000001,
+      "cumulative_seconds": 0.004224680000000001
+    },
+    {
+      "file": "similarity.py",
+      "line": 26,
+      "name": "<genexpr>",
+      "calls": 126071,
+      "primitive_calls": 126071,
+      "own_seconds": 0.0030231850000000003,
+      "cumulative_seconds": 0.0030231850000000003
+    },
+    {
+      "file": "similarity.py",
+      "line": 25,
+      "name": "<genexpr>",
+      "calls": 120202,
+      "primitive_calls": 120202,
+      "own_seconds": 0.0028509810000000003,
+      "cumulative_seconds": 0.0028509810000000003
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "name": "<method 'casefold' of 'str' objects>",
+      "calls": 2,
+      "primitive_calls": 2,
+      "own_seconds": 0.000426916,
+      "cumulative_seconds": 0.000426916
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "name": "<built-in method unicodedata.normalize>",
+      "calls": 2,
+      "primitive_calls": 2,
+      "own_seconds": 0.00012837500000000002,
+      "cumulative_seconds": 0.00012837500000000002
+    },
+    {
+      "file": "similarity.py",
+      "line": 32,
+      "name": "similarity",
+      "calls": 1,
+      "primitive_calls": 1,
+      "own_seconds": 5.1875e-05,
+      "cumulative_seconds": 0.09123091700000001
+    },
+    {
+      "file": "similarity.py",
+      "line": 18,
+      "name": "cosine_similarity",
+      "calls": 2,
+      "primitive_calls": 2,
+      "own_seconds": 2.8503e-05,
+      "cumulative_seconds": 0.025934083
+    },
+    {
+      "file": "__init__.py",
+      "line": 581,
+      "name": "__init__",
+      "calls": 4,
+      "primitive_calls": 4,
+      "own_seconds": 1.6208e-05,
+      "cumulative_seconds": 0.037334875000000003
+    },
+    {
+      "file": "__init__.py",
+      "line": 649,
+      "name": "update",
+      "calls": 4,
+      "primitive_calls": 4,
+      "own_seconds": 1.4625000000000001e-05,
+      "cumulative_seconds": 0.037318667
+    },
+    {
+      "file": "similarity.py",
+      "line": 12,
+      "name": "normalize_text",
+      "calls": 2,
+      "primitive_calls": 2,
+      "own_seconds": 1.2709000000000001e-05,
+      "cumulative_seconds": 0.027909000000000003
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "name": "<built-in method _abc._abc_instancecheck>",
+      "calls": 4,
+      "primitive_calls": 4,
+      "own_seconds": 5.417e-06,
+      "cumulative_seconds": 5.417e-06
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "name": "<built-in method builtins.isinstance>",
+      "calls": 4,
+      "primitive_calls": 4,
+      "own_seconds": 3.4600000000000003e-06,
+      "cumulative_seconds": 1.0584e-05
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "name": "<built-in method builtins.max>",
+      "calls": 3,
+      "primitive_calls": 3,
+      "own_seconds": 3.2510000000000003e-06,
+      "cumulative_seconds": 3.2510000000000003e-06
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "name": "<built-in method math.sqrt>",
+      "calls": 2,
+      "primitive_calls": 2,
+      "own_seconds": 2.7500000000000004e-06,
+      "cumulative_seconds": 2.7500000000000004e-06
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "name": "<built-in method builtins.len>",
+      "calls": 8,
+      "primitive_calls": 8,
+      "own_seconds": 1.8340000000000001e-06,
+      "cumulative_seconds": 1.8340000000000001e-06
+    },
+    {
+      "file": "abc.py",
+      "line": 117,
+      "name": "__instancecheck__",
+      "calls": 4,
+      "primitive_calls": 4,
+      "own_seconds": 1.7070000000000001e-06,
+      "cumulative_seconds": 7.124000000000001e-06
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "name": "<method 'disable' of '_lsprof.Profiler' objects>",
+      "calls": 1,
+      "primitive_calls": 1,
+      "own_seconds": 6.25e-07,
+      "cumulative_seconds": 6.25e-07
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "name": "<built-in method builtins.min>",
+      "calls": 4,
+      "primitive_calls": 4,
+      "own_seconds": 6.240000000000001e-07,
+      "cumulative_seconds": 6.240000000000001e-07
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "name": "<method 'values' of 'dict' objects>",
+      "calls": 4,
+      "primitive_calls": 4,
+      "own_seconds": 5.82e-07,
+      "cumulative_seconds": 5.82e-07
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "name": "<method 'items' of 'dict' objects>",
+      "calls": 2,
+      "primitive_calls": 2,
+      "own_seconds": 4.99e-07,
+      "cumulative_seconds": 4.99e-07
+    }
+  ],
+  "limitations": [
+    "Synthetic data, not teacher fixtures or hidden tests.",
+    "tracemalloc measures traced Python allocations, not whole-process RSS.",
+    "cProfile overhead is excluded from timing; warmup and file I/O are separate."
+  ]
+}

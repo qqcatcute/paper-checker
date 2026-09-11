@@ -1,0 +1,13 @@
+{
+  "case": "synthetic 1,000,000 + 1,050,000 Chinese characters",
+  "original_characters": 1000000,
+  "candidate_characters": 1050000,
+  "elapsed_seconds": 0.764347875,
+  "exit_code": 0,
+  "stderr": "",
+  "answer": "0.90",
+  "max_rss_bytes": 314572800,
+  "platform": "macOS-26.5.2-arm64-arm-64bit",
+  "python": "3.9.6",
+  "note": "Single measured CLI run; process peak RSS. Not teacher data or a guarantee for hidden tests."
+}

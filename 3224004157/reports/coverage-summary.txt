@@ -1,0 +1,9 @@
+Name                    Stmts   Miss Branch BrPart  Cover   Missing
+-------------------------------------------------------------------
+checker/__init__.py         0      0      0      0   100%
+checker/errors.py           4      0      0      0   100%
+checker/fileio.py          33      0     10      0   100%
+checker/similarity.py      32      0     10      0   100%
+main.py                    24      0      6      0   100%
+-------------------------------------------------------------------
+TOTAL                      93      0     26      0   100%

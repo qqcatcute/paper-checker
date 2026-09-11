@@ -17,12 +17,13 @@ def normalize_text(text: str) -> str:
 
 def cosine_similarity(left: Mapping[str, int], right: Mapping[str, int]) -> float:
     """Compare two non-negative frequency mappings; an empty norm scores zero."""
-    vocabulary = set(left) | set(right)
-    left_vector = [left.get(feature, 0) for feature in vocabulary]
-    right_vector = [right.get(feature, 0) for feature in vocabulary]
-    dot = sum(a * b for a, b in zip(left_vector, right_vector))
-    left_squared = sum(value * value for value in left_vector)
-    right_squared = sum(value * value for value in right_vector)
+    # Zero-valued missing features do not affect the dot product or norms.
+    # Iterate only the smaller mapping instead of building dense union vectors.
+    if len(left) > len(right):
+        left, right = right, left
+    dot = sum(value * right.get(feature, 0) for feature, value in left.items())
+    left_squared = sum(value * value for value in left.values())
+    right_squared = sum(value * value for value in right.values())
     if not left_squared or not right_squared:
         return 0.0
     return min(1.0, max(0.0, dot / math.sqrt(left_squared * right_squared)))

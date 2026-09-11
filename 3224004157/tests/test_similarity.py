@@ -40,6 +40,22 @@ class CosineTests(unittest.TestCase):
     def test_proportional_vectors(self):
         self.assertAlmostEqual(cosine_similarity({"a": 1, "b": 2}, {"a": 2, "b": 4}), 1)
 
+    def test_sparse_optimization_matches_dense_reference(self):
+        rng = random.Random(12345)
+        for _ in range(100):
+            left = {
+                str(key): rng.randrange(1, 20) for key in rng.sample(range(60), rng.randrange(40))
+            }
+            right = {
+                str(key): rng.randrange(1, 20) for key in rng.sample(range(60), rng.randrange(40))
+            }
+            keys = sorted(set(left) | set(right))
+            a = [left.get(key, 0) for key in keys]
+            b = [right.get(key, 0) for key in keys]
+            denominator = math.sqrt(sum(x * x for x in a) * sum(y * y for y in b))
+            expected = sum(x * y for x, y in zip(a, b)) / denominator if denominator else 0.0
+            self.assertAlmostEqual(cosine_similarity(left, right), expected, places=12)
+
 
 class SimilarityTests(unittest.TestCase):
     def test_identical_chinese(self):

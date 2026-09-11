@@ -1,0 +1,57 @@
+test_default_sys_argv (test_cli.CommandLineTests) ... ok
+test_expected_error_has_no_traceback (test_cli.CommandLineTests) ... ok
+test_function_and_real_process_with_absolute_unicode_space_paths (test_cli.CommandLineTests) ... ok
+test_help (test_cli.CommandLineTests) ... ok
+test_real_process_missing_arguments (test_cli.CommandLineTests) ... ok
+test_wrong_argument_counts (test_cli.CommandLineTests) ... ok
+test_answer_cannot_overwrite_candidate (test_fileio.FileTests) ... ok
+test_answer_cannot_overwrite_original (test_fileio.FileTests) ... ok
+test_answer_precision_and_only_requested_output (test_fileio.FileTests) ... ok
+test_bom_is_accepted (test_fileio.FileTests) ... ok
+test_directory_is_not_input (test_fileio.FileTests) ... ok
+test_empty_files_write_zero (test_fileio.FileTests) ... ok
+test_existing_answer_is_replaced (test_fileio.FileTests) ... ok
+test_hardlink_output_cannot_overwrite_input (test_fileio.FileTests) ... ok
+test_invalid_utf8_does_not_replace_previous_answer (test_fileio.FileTests) ... ok
+test_missing_candidate (test_fileio.FileTests) ... ok
+test_missing_original (test_fileio.FileTests) ... ok
+test_output_cannot_be_directory (test_fileio.FileTests) ... ok
+test_output_parent_must_exist (test_fileio.FileTests) ... ok
+test_path_resolution_error_is_explained (test_fileio.FileTests) ... ok
+test_read_permission_failure_is_explained (test_fileio.FileTests) ... ok
+test_relative_path_rejected (test_fileio.FileTests) ... ok
+test_same_file_can_be_both_inputs (test_fileio.FileTests) ... ok
+test_symlink_output_cannot_overwrite_input (test_fileio.FileTests) ... ok
+test_write_permission_failure_is_explained (test_fileio.FileTests) ... ok
+test_analytical_value (test_similarity.CosineTests) ... ok
+test_both_zero_norms (test_similarity.CosineTests) ... ok
+test_disjoint_vectors (test_similarity.CosineTests) ... ok
+test_proportional_vectors (test_similarity.CosineTests) ... ok
+test_sparse_optimization_matches_dense_reference (test_similarity.CosineTests) ... ok
+test_zero_left_norm (test_similarity.CosineTests) ... ok
+test_zero_right_norm (test_similarity.CosineTests) ... ok
+test_chinese_punctuation_and_whitespace (test_similarity.NormalizationTests) ... ok
+test_fullwidth_case_and_numbers (test_similarity.NormalizationTests) ... ok
+test_only_punctuation_and_emoji (test_similarity.NormalizationTests) ... ok
+test_unicode_composed_and_decomposed (test_similarity.NormalizationTests) ... ok
+test_append_changes_score (test_similarity.SimilarityTests) ... ok
+test_both_empty (test_similarity.SimilarityTests) ... ok
+test_delete_changes_score (test_similarity.SimilarityTests) ... ok
+test_disjoint_text (test_similarity.SimilarityTests) ... ok
+test_empty_candidate (test_similarity.SimilarityTests) ... ok
+test_empty_original (test_similarity.SimilarityTests) ... ok
+test_formatting_changes_are_ignored (test_similarity.SimilarityTests) ... ok
+test_hand_calculated_weighted_score (test_similarity.SimilarityTests) ... ok
+test_identical_chinese (test_similarity.SimilarityTests) ... ok
+test_long_repetitive_input (test_similarity.SimilarityTests) ... ok
+test_no_usable_characters (test_similarity.SimilarityTests) ... ok
+test_order_matters (test_similarity.SimilarityTests) ... ok
+test_single_character_equal (test_similarity.SimilarityTests) ... ok
+test_single_character_fallback (test_similarity.SimilarityTests) ... ok
+test_single_character_unequal (test_similarity.SimilarityTests) ... ok
+test_symmetry_and_bounds_on_seeded_random_text (test_similarity.SimilarityTests) ... ok
+
+----------------------------------------------------------------------
+Ran 52 tests in 0.260s
+
+OK
