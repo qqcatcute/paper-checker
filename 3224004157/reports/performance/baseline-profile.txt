@@ -1,0 +1,66 @@
+         1462147 function calls in 0.154 seconds
+
+   Ordered by: cumulative time
+   List reduced from 28 to 25 due to restriction <25>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.002    0.002    0.154    0.154 similarity.py:31(similarity)
+        2    0.011    0.005    0.086    0.043 similarity.py:18(cosine_similarity)
+        4    0.000    0.000    0.038    0.010 __init__.py:581(__init__)
+        4    0.000    0.000    0.038    0.010 __init__.py:649(update)
+        4    0.023    0.006    0.038    0.010 {built-in method _collections._count_elements}
+   289632    0.029    0.000    0.029    0.000 {method 'get' of 'dict' objects}
+        2    0.009    0.005    0.029    0.014 similarity.py:22(<listcomp>)
+        2    0.000    0.000    0.028    0.014 similarity.py:12(normalize_text)
+        2    0.008    0.004    0.027    0.014 {method 'join' of 'str' objects}
+        2    0.014    0.007    0.024    0.012 similarity.py:21(<listcomp>)
+        6    0.010    0.002    0.022    0.004 {built-in method builtins.sum}
+   246002    0.015    0.000    0.019    0.000 similarity.py:15(<genexpr>)
+   126000    0.008    0.000    0.008    0.000 similarity.py:47(<genexpr>)
+   120000    0.007    0.000    0.007    0.000 similarity.py:46(<genexpr>)
+   144818    0.005    0.000    0.005    0.000 similarity.py:23(<genexpr>)
+   246000    0.004    0.000    0.004    0.000 {method 'isalnum' of 'str' objects}
+   144818    0.004    0.000    0.004    0.000 similarity.py:24(<genexpr>)
+   144818    0.003    0.000    0.003    0.000 similarity.py:25(<genexpr>)
+        2    0.000    0.000    0.000    0.000 {method 'casefold' of 'str' objects}
+        2    0.000    0.000    0.000    0.000 {built-in method unicodedata.normalize}
+        4    0.000    0.000    0.000    0.000 {built-in method builtins.isinstance}
+        4    0.000    0.000    0.000    0.000 abc.py:117(__instancecheck__)
+        4    0.000    0.000    0.000    0.000 {built-in method _abc._abc_instancecheck}
+        3    0.000    0.000    0.000    0.000 {built-in method builtins.max}
+        2    0.000    0.000    0.000    0.000 {built-in method math.sqrt}
+
+
+         1462147 function calls in 0.154 seconds
+
+   Ordered by: internal time
+   List reduced from 28 to 25 due to restriction <25>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+   289632    0.029    0.000    0.029    0.000 {method 'get' of 'dict' objects}
+        4    0.023    0.006    0.038    0.010 {built-in method _collections._count_elements}
+   246002    0.015    0.000    0.019    0.000 similarity.py:15(<genexpr>)
+        2    0.014    0.007    0.024    0.012 similarity.py:21(<listcomp>)
+        2    0.011    0.005    0.086    0.043 similarity.py:18(cosine_similarity)
+        6    0.010    0.002    0.022    0.004 {built-in method builtins.sum}
+        2    0.009    0.005    0.029    0.014 similarity.py:22(<listcomp>)
+        2    0.008    0.004    0.027    0.014 {method 'join' of 'str' objects}
+   126000    0.008    0.000    0.008    0.000 similarity.py:47(<genexpr>)
+   120000    0.007    0.000    0.007    0.000 similarity.py:46(<genexpr>)
+   144818    0.005    0.000    0.005    0.000 similarity.py:23(<genexpr>)
+   246000    0.004    0.000    0.004    0.000 {method 'isalnum' of 'str' objects}
+   144818    0.004    0.000    0.004    0.000 similarity.py:24(<genexpr>)
+   144818    0.003    0.000    0.003    0.000 similarity.py:25(<genexpr>)
+        1    0.002    0.002    0.154    0.154 similarity.py:31(similarity)
+        2    0.000    0.000    0.000    0.000 {method 'casefold' of 'str' objects}
+        2    0.000    0.000    0.000    0.000 {built-in method unicodedata.normalize}
+        4    0.000    0.000    0.038    0.010 __init__.py:581(__init__)
+        2    0.000    0.000    0.028    0.014 similarity.py:12(normalize_text)
+        4    0.000    0.000    0.038    0.010 __init__.py:649(update)
+        4    0.000    0.000    0.000    0.000 {built-in method _abc._abc_instancecheck}
+        3    0.000    0.000    0.000    0.000 {built-in method builtins.max}
+        4    0.000    0.000    0.000    0.000 {built-in method builtins.isinstance}
+        2    0.000    0.000    0.000    0.000 {built-in method math.sqrt}
+        4    0.000    0.000    0.000    0.000 abc.py:117(__instancecheck__)
+
+
