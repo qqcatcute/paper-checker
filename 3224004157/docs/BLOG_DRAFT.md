@@ -8,7 +8,7 @@ GitHub 作业链接：[paper-checker / 3224004157](https://github.com/qqcatcute/
 
 本项目实现一个 Python 命令行程序，接收原文、待比较文本和答案文件三个绝对路径，在答案文件中写入保留两位小数的重复率。入口文件为 `main.py`，运行时只使用标准库。
 
-开发前先记录 PSP 预估，随后按基本功能、性能测量、优化和报告整理分别提交。初版开发时尚未连接远端仓库，提交先保存在本地。
+项目按基本功能、性能测量、优化和报告整理分别提交。初版开发时尚未连接远端仓库，提交先保存在本地。
 
 目前使用自建文本进行测试，拿到班级群样例后再补充验证。
 
@@ -169,31 +169,9 @@ def test_output_parent_must_exist(self):
 
 ## 六、PSP 与过程记录
 
-首次编码前的预估保存在 [原始 PSP 记录](https://github.com/qqcatcute/paper-checker/blob/main/3224004157/docs/PSP.md)。
-
-### 首次编码前的预估
-
-下表摘录首次实现前已提交的预估，合计 75 分钟；后续 200 分钟计划另列，不替代此记录。
-
-| PSP2.1 | 开发阶段 | 预估耗时（分钟） |
-| --- | --- | ---: |
-| Planning / Estimate | 计划与时间估计 | 5 |
-| Development / Analysis | 需求分析 | 5 |
-| Development / Design Spec | 设计文档 | 5 |
-| Development / Design Review | 设计复审 | 2 |
-| Development / Coding Standard | 代码规范 | 2 |
-| Development / Design | 具体设计 | 5 |
-| Development / Coding | 编码与性能改进 | 20 |
-| Development / Code Review | 代码复审 | 5 |
-| Development / Test | 测试与验证 | 15 |
-| Reporting / Test Report | 测试报告 | 5 |
-| Reporting / Size Measurement | 工作量统计 | 1 |
-| Reporting / Postmortem | 总结与改进计划 | 5 |
-| 合计 | | **75** |
-
 ### 本轮个人复现与完善记录
 
-本轮个人复现与完善预估 200 分钟，实际投入 210 分钟。下表记录各阶段的个人用时，首次编码前的预估另列于上表。
+本轮个人复现与完善预估 200 分钟，实际投入 210 分钟。各阶段用时如下。
 
 | PSP2.1 | 计划工作 | 预估耗时（分钟） | 实际耗时（分钟） |
 | --- | --- | ---: | ---: |
@@ -215,7 +193,6 @@ def test_output_parent_must_exist(self):
 
 | 阶段 | 内容 | 提交 |
 | --- | --- | --- |
-| 编码前计划 | PSP 预估和实现计划 | [5fea1fa](https://github.com/qqcatcute/paper-checker/commit/5fea1fa) |
 | 基本功能 | 文件接口、字符片段相似度、异常处理和初版测试 | [15d1de1](https://github.com/qqcatcute/paper-checker/commit/15d1de1) |
 | 基线测量 | 保存初版性能数据与测量脚本 | [a9af0f9](https://github.com/qqcatcute/paper-checker/commit/a9af0f9) |
 | 性能改进 | 稀疏余弦计算、回归验证、长输入和覆盖率检查 | [bf9e75a](https://github.com/qqcatcute/paper-checker/commit/bf9e75a) |
