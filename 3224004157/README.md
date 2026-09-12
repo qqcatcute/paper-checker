@@ -68,7 +68,7 @@ Windows PowerShell 激活环境的命令为 `.venv\Scripts\Activate.ps1`。Windo
 ## 查看已有报告
 
 - [设计说明与流程图](docs/DESIGN.md)
-- [PSP 预估与阶段耗时](docs/PSP.md)
+- [个人 PSP 预估与实际耗时](docs/PSP.md)
 - [测试与代码质量报告](docs/TEST_REPORT.md)
 - [性能改进报告](docs/PERFORMANCE.md)
 - [覆盖率交互报告](reports/coverage/index.html)：在浏览器中打开，可以点击各文件查看具体行。
@@ -94,4 +94,4 @@ python -m snakeviz reports/performance-rerun/optimized.prof
 - [Ruff 文档](https://docs.astral.sh/ruff/)
 - [SnakeViz 项目文档](https://jiffyclub.github.io/snakeviz/)
 
-开发过程与计时口径见 [PSP 记录](docs/PSP.md)，上传和课程提交事项见 [提交准备](docs/SUBMISSION.md)。
+个人预估与实际投入见 [PSP 记录](docs/PSP.md)，上传和课程提交事项见 [提交准备](docs/SUBMISSION.md)。
