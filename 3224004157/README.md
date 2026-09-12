@@ -72,7 +72,7 @@ Windows PowerShell 激活环境的命令为 `.venv\Scripts\Activate.ps1`。Windo
 - [测试与代码质量报告](docs/TEST_REPORT.md)
 - [性能改进报告](docs/PERFORMANCE.md)
 - [覆盖率交互报告](reports/coverage/index.html)：在浏览器中打开，可以点击各文件查看具体行。
-- [博客草稿](docs/BLOG_DRAFT.md)：包含仓库链接与截图、算法设计、测试和性能报告、PSP 表格及个人复盘，已保存至博客园草稿，尚未正式发布。
+- [已发布博文](https://www.cnblogs.com/qqcatcute/p/22950881)（[正文备份](docs/BLOG_DRAFT.md)）：包含仓库链接与截图、算法设计、测试和性能报告、PSP 表格及个人复盘；已于 2026-09-12 23:53 提交至课程页面。
 - [提交准备说明](docs/SUBMISSION.md)
 
 ## 复现性能分析
