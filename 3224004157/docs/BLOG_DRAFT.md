@@ -12,7 +12,7 @@ GitHub 作业链接：[paper-checker / 3224004157](https://github.com/qqcatcute/
 
 目前使用自建文本进行测试，拿到班级群样例后再补充验证。
 
-下图为 GitHub 学号目录的实际页面，包含入口、依赖说明、源代码、测试和报告目录。截图拍摄于 2026-09-12，展示当时已上传的仓库结构。
+GitHub 仓库中的学号目录如下，包含程序入口、依赖说明、源代码、测试和报告。
 
 ![GitHub 学号目录](https://img2024.cnblogs.com/blog/3850112/202609/3850112-20260912233412889-1153161048.jpg)
 
@@ -53,7 +53,7 @@ main(argv)
 
 ## 三、性能瓶颈与改进
 
-阶段记录中，性能测量与代码改进占用 2026-09-11 17:00:31 至 17:03:19，约 **2.81 分钟**；随后回归、覆盖率和长输入验证约 **1.97 分钟**。这是助手参与开发过程的计时，原始记录见 [阶段计时](https://github.com/qqcatcute/paper-checker/blob/main/3224004157/reports/development-timing.json)，不等于个人学习和操作时间，也不重复计入 PSP 总数。
+本轮代码完善与测试核对的个人投入分别为 **40 分钟**和 **20 分钟**，详见第六节 PSP 表。性能分析重点是找出余弦计算中的额外开销，并验证优化前后结果是否一致。
 
 初版为余弦计算建立特征并集和两个补零列表。cProfile 显示该函数两次调用累计约 0.08593 秒，字典查找调用达到 289,632 次。
 
@@ -68,7 +68,7 @@ main(argv)
 | 含进程启动/文件读写的命令行中位耗时 | 0.135066 秒 | 0.092911 秒 |
 | 得分 | 0.875756509005383 | 0.875756509005383 |
 
-下列函数图来自初版和优化版实际运行产生的 cProfile 文件，由 SnakeViz 展示。此次截图重新打开已保存的报告，没有重新生成或改写测量数值。
+下列函数图由 SnakeViz 展示，分别对应初版和优化版运行生成的 cProfile 报告。
 
 优化前的函数调用图与耗时排名：
 
@@ -193,7 +193,7 @@ def test_output_parent_must_exist(self):
 
 ### 本轮个人复现与完善记录
 
-下表记录本轮个人复现与完善计划，预估合计 200 分钟。实际耗时由本人填报并确认，合计 210 分钟。该计划不替代首次编码前的预估。
+本轮个人复现与完善预估 200 分钟，实际投入 210 分钟。下表记录各阶段的个人用时，首次编码前的预估另列于上表。
 
 | PSP2.1 | 计划工作 | 预估耗时（分钟） | 实际耗时（分钟） |
 | --- | --- | ---: | ---: |
@@ -248,6 +248,7 @@ def test_output_parent_must_exist(self):
 ## 参考资料
 
 - [课程作业要求](https://edu.cnblogs.com/campus/gdgy/Class56-Grade2024-CS/homework/15693)
+- [性能改进阶段用时记录](https://github.com/qqcatcute/paper-checker/blob/main/3224004157/reports/development-timing.json)
 - [Python 性能分析器 cProfile](https://docs.python.org/3/library/profile.html)
 - [Coverage.py 7.10.7](https://coverage.readthedocs.io/en/7.10.7/)
 - [SnakeViz 文档](https://jiffyclub.github.io/snakeviz/)
